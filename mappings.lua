@@ -1,5 +1,16 @@
 local maps = { v = {}, o = {}, n = {}, i = {}, t = {} }
 
+local os = vim.loop.os_uname().sysname
+if os == "Windows_NT" then
+    -- Windows mappings
+    -- Paste in insert mode
+    maps.i["<C-v>"] = { "<C-r>+" }
+elseif os == "Darwin" then
+    -- MacOS mappings
+    -- Paste in insert mode
+    maps.i["<M-v>"] = { "<C-r>+" }
+end
+
 -- Text object remaps
 -- d as "
 maps.v["id"] = { 'i"', desc = "Inside double quotes" }

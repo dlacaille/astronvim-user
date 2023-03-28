@@ -1,16 +1,19 @@
 return {
-    filesystem = {
-        filtered_items = {
-            visible = true,
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+        filesystem = {
+            filtered_items = {
+                visible = true,
+            },
         },
-    },
-    event_handlers = {
-        {
-            event = "file_opened",
-            handler = function()
-                --auto close
-                require("neo-tree").close_all()
-            end,
+        event_handlers = {
+            {
+                event = "file_opened",
+                handler = function()
+                    --auto close
+                    require("neo-tree").close_all()
+                end,
+            },
         },
     },
 }
