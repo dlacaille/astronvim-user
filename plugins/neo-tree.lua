@@ -6,6 +6,9 @@ return {
                 visible = true,
             },
         },
+        source_selector = {
+            default_source = "filesystem"
+        },
         event_handlers = {
             {
                 event = "file_opened",
