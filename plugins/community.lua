@@ -3,7 +3,6 @@ return {
     { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.motion.mini-move" },
     { import = "astrocommunity.motion.mini-surround" },
-    { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
     { import = "astrocommunity.code-runner.overseer-nvim" },
     -- Customize plugins further
     {
