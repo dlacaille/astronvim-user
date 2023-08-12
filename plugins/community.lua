@@ -1,6 +1,5 @@
 return {
     "AstroNvim/astrocommunity",
-    { import = "astrocommunity.color.modes-nvim" },
     { import = "astrocommunity.colorscheme.catppuccin" },
     { import = "astrocommunity.bars-and-lines.statuscol-nvim" },
     { import = "astrocommunity.motion.mini-move" },
