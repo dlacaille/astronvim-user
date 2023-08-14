@@ -1,8 +1,8 @@
 return {
     "AstroNvim/astrocommunity",
-    { import = "astrocommunity.colorscheme.catppuccin" },
-    { import = "astrocommunity.motion.mini-move" },
-    { import = "astrocommunity.motion.mini-surround" },
-    { import = "astrocommunity.code-runner.overseer-nvim" },
-    { import = "astrocommunity.utility.noice-nvim" },
+    { import = "astrocommunity.colorscheme.catppuccin" }, -- Awesome color scheme
+    { import = "astrocommunity.motion.mini-move" }, -- Move text selections
+    { import = "astrocommunity.motion.mini-surround" }, -- Surround text
+    { import = "astrocommunity.code-runner.overseer-nvim" }, -- Manage and run tasks
+    { import = "astrocommunity.utility.noice-nvim" }, -- Rice cmdline / errors / notifications
 }
