@@ -11,6 +11,10 @@ elseif os == "Darwin" then
     maps.i["<M-v>"] = { "<C-r>+" }
 end
 
+-- Navigate buffers with HL
+maps.n["H"] = { "<cmd>bprev<cr>" }
+maps.n["L"] = { "<cmd>bnext<cr>" }
+
 -- Text object remaps
 -- d as "
 maps.v["id"] = { 'i"', desc = "Inside double quotes" }
