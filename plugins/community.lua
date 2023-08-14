@@ -6,4 +6,5 @@ return {
     { import = "astrocommunity.motion.mini-surround" }, -- Surround text
     { import = "astrocommunity.code-runner.overseer-nvim" }, -- Manage and run tasks
     { import = "astrocommunity.utility.noice-nvim" }, -- Rice cmdline / errors / notifications
+    { import = "astrocommunity.startup.fsplash-nvim" }, -- Floating window splash screen
 }
